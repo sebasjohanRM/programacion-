@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.acapulco-3 {
+    width: 600px;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mexico-logo img {
+    width: 60px;
+    cursor: pointer;
+}
+
+.mexico-options {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: -5px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px;
+    transition: 180ms;
+}
+
+li:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(31, 236, 8);
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.boton {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+    transition: linear 180ms;
+}
+
+h2 {
+    color: rgb(224, 15, 15);
+    align-items: center;
+    margin: 10px;
+}
+
+.boton {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    transition: linear 180ms;
+}
+
+.linea {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    margin: 20px;
+}
