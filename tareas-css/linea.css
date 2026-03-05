@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    margin-top: 30px;
+}
+
+.cuadro-1 {
+    width: 400px;
+    height: 150px;
+    background-color: green;
+    border-radius: 10px;
+    justify-content: end;
+    align-items: end;
+    margin-left: 70%;
+}
+
+.cuadro-2 {
+    width: 400px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.cuadro-3 {
+    width: 400px;
+    height: 150px;
+    background-color: red;
+    border-radius: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}

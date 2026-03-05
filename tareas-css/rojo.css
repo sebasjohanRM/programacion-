@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.azul {
+    width: 400px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.azul-2 {
+    width: 400px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.caja {
+    display: flex;
+    justify-content: end;
+}
+
+.amarillo {
+    width: 400px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
