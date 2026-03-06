@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.redondo {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(214, 208, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circulo-1 {
+    width:100% ;
+    height: 15%;
+    background-color: orangered;
+    margin-bottom: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.balon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 15px;
+}
+.ovalo{
+    display: flex;
+    margin-right: 30px;
+}
+.triangulo{
+    width: 280px;
+    height: 45px;
+    background-color: rgb(70, 63, 63);
+   /* margin-left: 300px; */
+   margin: 5px;
+}
+.triangulo-1{
+    width: 280px;
+    height: 45px;
+    background-color: rgb(70, 63, 63);
+    /* margin-left: 180px; */
+    margin: 5px;
+}
+.cuadro{
+    width: 50px;
+    height: 45px;
+    background-color: rgb(70, 63, 63);
+    /* margin-right: 100px; */
+    margin: 5px;
+}
+.circulo-2{
+    width: 77%;
+    height: 88%;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 45px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.amarillo{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azul{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(118, 118, 240);
+    border-radius: 50%;
+}
+.ovalo-1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+}
+.rosado{
+    width: 230px;
+    height: 100px;
+    background-color: pink;
+
+}
+.circulo-3{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(48, 4, 88);
+}
