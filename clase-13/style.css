@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #141414;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    overflow: hidden;
+    transition: 300ms;
+    margin-left: 5px;
+}
+nav:hover{
+    width: 185px;
+}
+
+.boton-base{
+    padding: 10px 8px;
+    cursor: pointer;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    border-radius: 8px;
+}
+.logo{
+    margin-top: 10px;
+    width: 20px;
+}
+.boton-base p{
+    color: #ffffff;
+    opacity: 0;
+    transition: 300ms;
+    font-size: 12px;    
+}
+nav:hover p{
+    opacity: 1;
+    margin-left: 14px;
+}
+.boton-base:hover{
+    background-color: #2b2a2a;
+
+}
+.boton-base img{
+    width: 18px;
+    filter: invert(100%);
+}
+.perfil-nav img{
+    filter: invert(0%) !important;
+    border-radius: 50%;
+}
+.configuraciones{
+    margin-bottom: 10px;
+}
+
+.cont-perfil {
+    padding-top: 25px;
+    width: 500px;
+    margin: auto;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.imagen-perfil {
+    width: 100%;
+}
+
+.info-perfil {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.nombre-perfil {
+    display: flex;
+}
+
+.nombre-perfil p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.puntos-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.puntos-perfil div {
+    border-radius: 50%;
+    width: 1.5px;
+    background-color: #ffffff;
+    height: 1.5px;
+}
+
+.nombre-usuario {
+    color: #ffffff;
+    font-size: 10px;
+    margin: 5px 0 10px 0;
+}
+
+
+.movimiento {
+    display: flex;
+    /* color: #ffffff; */
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.movimiento p {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.btns-perfil {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.btns-perfil p {
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.boton-1 {
+    bottom: 100%;
+    border-radius: 10px;
+    background-color: #25292e;
+    width: 230px;
+    height: 37px;
+    margin-right: 6px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boton-1:hover {
+    background-color: #3a3f45;
+}
+
+.flech {
+    width: 15px;
+    filter: invert(100%);
+}
+
+.boton-2 {
+    width: 280px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #25292e;
+    cursor: pointer;
+    border: none;
+
+}
+
+.boton-2:hover {
+    background-color: #3a3f45;
+}
+
+.boton-3 {
+    background-color: #25292e;
+    width: 37px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton-3 img {
+    width: 30%;
+    height: 30%;
+    filter: invert(100%);
+    transform: scaleX(-100%);
+}
+
+.boton-3:hover {
+    background-color: #3a3f45;
+}
+.historias{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.historia{
+    margin:0px 3px;
+}
+.borde-historia{
+    border-radius: 50%;
+    border: solid 2px #25292e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historias img{
+    border-radius: 50%;
+    width: 48px;
+    border: solid 2px #141414;
+}
+.historias p{
+    font-size: 8px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+}
+.cont-contenido{
+    display: flex;
+    justify-content: center;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.contenido div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.contenido img{
+    width: 18px;
+    filter: invert(100%);
+    cursor: pointer;
+}
